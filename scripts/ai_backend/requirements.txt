@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+openai
+python-dotenv
+reportlab
+langchain==0.1.16
+langchain-community==0.0.34
+langchain-nvidia-ai-endpoints
+chromadb==0.4.24
+tqdm==4.66.2

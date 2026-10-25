@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.keystore
+*.jks
+key.properties
+local.properties
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+sattam_app/build/
+**/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+sattam_app/android/.gradle/
+**/android/.gradle/
+sattam_app/android/captures/
+**/android/captures/
+sattam_app/android/gradlew
+sattam_app/android/gradlew.bat
+sattam_app/android/local.properties
+**/android/local.properties
+*.apk
+*.aab
+
+# iOS & macOS
+sattam_app/ios/Flutter/Generated.xcconfig
+sattam_app/ios/Flutter/flutter_export_environment.sh
+sattam_app/ios/Flutter/ephemeral/
+sattam_app/ios/Pods/
+sattam_app/macos/Flutter/ephemeral/
+sattam_app/macos/Pods/
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+
+# Windows & Linux
+sattam_app/windows/flutter/ephemeral/
+sattam_app/linux/flutter/ephemeral/
+
+# IDEs & Editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Operating Systems
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Datasets, Books, and Heavy Vector Databases
+books/
+datasets/*.jsonl
+datasets/*.pdf
+datasets/books/
+datasets/chroma_db/
+datasets/chroma_db_p1/
+datasets/chroma_db_p2/
+datasets/chroma_db_p3/
+
+# Bundles & Backups
+*.bundle
+*backup*
